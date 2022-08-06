@@ -21,7 +21,9 @@
 
             <trans-unit id="title.homepage">
                 <source>title.homepage</source>
-                <target><![CDATA[<strong>Symfony Demo</strong> 응용프로그램에 어서오세요]]></target>
+                <target>
+                    <![CDATA[<strong>Symfony Demo</strong> 응용프로그램에 어서오세요]]>
+                </target>
             </trans-unit>
             <trans-unit id="title.source_code">
                 <source>title.source_code</source>
@@ -59,6 +61,10 @@
             <trans-unit id="action.show">
                 <source>action.show</source>
                 <target>확인</target>
+            </trans-unit>
+            <trans-unit id="action.show_post">
+                <source>action.show_post</source>
+                <target>글 보기</target>
             </trans-unit>
             <trans-unit id="action.show_code">
                 <source>action.show_code</source>
@@ -238,24 +244,34 @@
             </trans-unit>
             <trans-unit id="notification.comment_created.description">
                 <source>notification.comment_created.description</source>
-                <target><![CDATA[귀하의 게시물 "{title}"새로운 코멘트가 도착했습니다. <a href="{link}">이 링크 </a>에 따라 코멘트를 읽을 수 있습니다]]></target>
+                <target>
+                    <![CDATA[귀하의 게시물 "{title}"새로운 코멘트가 도착했습니다. <a href="{link}">이 링크 </a>에 따라 코멘트를 읽을 수 있습니다]]>
+                </target>
             </trans-unit>
 
             <trans-unit id="help.app_description">
                 <source>help.app_description</source>
-                <target><![CDATA[이것은 Symfony 프레임 워크로 구축 된 <strong> 데모 응용 프로그램 </strong>에서 Symfony 응용 프로그램을 개발하는 데 권장되는 방법을 설명하기위한 것입니다.]]></target>
+                <target>
+                    <![CDATA[이것은 Symfony 프레임 워크로 구축 된 <strong> 데모 응용 프로그램 </strong>에서 Symfony 응용 프로그램을 개발하는 데 권장되는 방법을 설명하기위한 것입니다.]]>
+                </target>
             </trans-unit>
             <trans-unit id="help.show_code">
                 <source>help.show_code</source>
-                <target><![CDATA[이 버튼을 클릭하면이 페이지를 표시하기 위해 사용 된 <strong>Controller</strong> <strong>template</strong> 소스 코드가 표시됩니다.]]></target>
+                <target>
+                    <![CDATA[이 버튼을 클릭하면이 페이지를 표시하기 위해 사용 된 <strong>Controller</strong> <strong>template</strong> 소스 코드가 표시됩니다.]]>
+                </target>
             </trans-unit>
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
-                <target><![CDATA[데모 응용 프로그램 <strong> 공개 섹션 </strong> 확인한다.]]></target>
+                <target>
+                    <![CDATA[데모 응용 프로그램 <strong> 공개 섹션 </strong> 확인한다.]]>
+                </target>
             </trans-unit>
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
-                <target><![CDATA[데모 응용 프로그램 <strong> 관리 섹션 </strong> 확인한다.]]></target>
+                <target>
+                    <![CDATA[데모 응용 프로그램 <strong> 관리 섹션 </strong> 확인한다.]]>
+                </target>
             </trans-unit>
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
@@ -279,7 +295,9 @@
             </trans-unit>
             <trans-unit id="help.more_information">
                 <source>help.more_information</source>
-                <target><![CDATA[더 자세히 알고 싶다면, <a href="https://symfony.com/doc"> Symfony doc </a>를 참조하십시오.]]></target>
+                <target>
+                    <![CDATA[더 자세히 알고 싶다면, <a href="https://symfony.com/doc"> Symfony doc </a>를 참조하십시오.]]>
+                </target>
             </trans-unit>
 
             <trans-unit id="paginator.previous">
